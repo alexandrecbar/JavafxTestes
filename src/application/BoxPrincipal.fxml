@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="mainScene" fx:id="mainScene" prefHeight="236.0" prefWidth="353.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <MenuBar prefHeight="182.0" prefWidth="353.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+               <items>
+                  <MenuItem fx:id="Inserir" mnemonicParsing="false" onAction="#inserir" text="Inserir" />
+                  <MenuItem fx:id="Editar" mnemonicParsing="false" onAction="#editar" text="Editar" />
+                  <MenuItem fx:id="Deletar" mnemonicParsing="false" onAction="#deletar" text="Deletar" />
+                  <MenuItem fx:id="Sair" mnemonicParsing="false" onAction="#sair" text="Sair" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Utilitários">
+            <items>
+              <MenuItem fx:id="Ferramentas" mnemonicParsing="false" onAction="#Ferramentas" text="Ferramentas" />
+                  <MenuItem fx:id="Auxiliares" mnemonicParsing="false" onAction="#Auxiliares" text="Auxiliares" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</VBox>
